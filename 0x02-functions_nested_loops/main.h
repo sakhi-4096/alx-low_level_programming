@@ -24,8 +24,18 @@ void print_alphabet_x10(void);
 
 /**
  *_islower - check for lowercase character
+ *@c: character to check
+ *Return: 1 if lowercase, 0 otherwise
  */
 
 int _islower(int c);
+
+/**
+ *_isalpha - check alphabetic character
+ *@c: character to check
+ *Return: 1 if lower or uppercase, 0 otherwise
+ */
+
+int _isalpha(int c);
 
 #endif
