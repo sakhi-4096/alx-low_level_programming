@@ -47,4 +47,12 @@ int _isalpha(int c);
 
 int print_sign(int n);
 
+/**
+ *_abs - compute absolute value of integer
+ *@n: number to be checked
+ *Return: integer
+ */
+
+int _abs(int n);
+
 #endif
