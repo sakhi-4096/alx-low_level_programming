@@ -38,4 +38,13 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+/**
+ *print_sign - print the sign of a number
+ *@n: number to be checked
+ *Return: 1 and + if n greater than zero,
+ * O and 0 if n is zero, -1 if n is less than zero
+ */
+
+int print_sign(int n);
+
 #endif
