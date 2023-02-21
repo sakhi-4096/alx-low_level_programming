@@ -55,4 +55,12 @@ int print_sign(int n);
 
 int _abs(int n);
 
+/**
+ *print_last_digit - print last digit of number n
+ *@n: number to be checked
+ *Return: value of last digit
+ */
+
+int print_last_digit(int n);
+
 #endif
