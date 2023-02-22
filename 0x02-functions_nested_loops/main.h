@@ -91,4 +91,11 @@ int add(int a, int b);
 
 void print_to_98(int n);
 
+/**
+ *print_times_table - print the n times table, start with zero
+ *@n: n is greater than 15 or less than 0 should not print
+ */
+
+void print_times_table(int n);
+
 #endif
