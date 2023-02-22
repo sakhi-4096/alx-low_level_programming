@@ -75,4 +75,20 @@ void jack_bauer(void);
 
 void times_table(void);
 
+/**
+ *add - add two integers and return result
+ *@a: first integer
+ *@b: second integer
+ *Return: int
+ */
+
+int add(int a, int b);
+
+/**
+ *print_to_98 - print natural number from n to 98
+ *@n: any natural number
+ */
+
+void print_to_98(int n);
+
 #endif
