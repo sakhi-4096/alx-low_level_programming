@@ -11,4 +11,14 @@
 
 void positive_or_negative(int i);
 
+/**
+ * largest_number - return largest of three numbers
+ * @a: one of three numbers
+ * @b: two of three numbers
+ * @c: three of three numbers
+ * Return: largest of the three numbers
+ */
+
+int largest_number(int a, int b, int c);
+
 #endif /* MAIN_H */
