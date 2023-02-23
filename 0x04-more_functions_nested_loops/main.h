@@ -26,4 +26,11 @@ int _isdigit(int c);
 
 int mul(int a, int b);
 
+/**
+ * print_numbers - print numbers from 0 to 9
+ * Return: void
+ */
+
+void print_numbers(void);
+
 #endif /* MAIN_H */
