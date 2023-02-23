@@ -55,4 +55,12 @@ void print_most_numbers(void);
 
 void more_numbers(void);
 
+/**
+ * print_line - draw straight line
+ * @n: number of times character should be printed
+ * Return: void
+ */
+
+void print_line(int n);
+
 #endif /* MAIN_H */
