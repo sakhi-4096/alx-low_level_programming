@@ -1,4 +1,16 @@
 # More Functions, and Nested Loops #
+_______
+
+### General Objectives ###
+* What are nested loops and how to use them
+* What is a function and how do you use functions
+* What is the difference between declaration and a definition of a function
+* What is a prototype
+* Scope of variables
+* What are the *gcc* flags *-Wall*  *Werror* *-pedantic* *-Wextra* *-std=gnu89*
+* What are header files and how to use them with *#include*
+
+__
 
 0 - Write a function that checks for uppercase character.
  * Prototype: int _isupper(int c);
@@ -57,3 +69,18 @@
  * Where size is the size of the triangle
  * If size is 0 or less, the function should print only a new line
  * Use the character # to print the triangle
+
+11 - Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+ * You are allowed to use the standard library
+
+12 - Write a function that prints an integer.
+ * Prototype: void print_number(int n);
+ * You can only use _putchar function to print
+ * You are not allowed to use long
+ * You are not allowed to use arrays or pointers
+ * You are not allowed to hard-code special values
+
+__
+
+### Author ###
+* Sakhile Ndlazi
