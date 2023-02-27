@@ -83,4 +83,13 @@ void puts_half(char *str);
 
 void print_array(int *a, int n);
 
+/**
+ * _strcpy - copy string pointed to including null character
+ * @dest: destination of copy
+ * @src: source of copy
+ * Return: pointer to value dest
+ */
+
+char *_strcpy(char *dest, char *src);
+
 #endif /* MAIN_H */
