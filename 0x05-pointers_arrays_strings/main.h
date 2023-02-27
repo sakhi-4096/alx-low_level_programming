@@ -42,4 +42,12 @@ int _strlen(char *s);
 
 void _puts(char *str);
 
+/**
+ * print_rev - print string in reverse, then new line
+ * @s: string to be printed
+ * Return: void
+ */
+
+void print_rev(char *s);
+
 #endif /* MAIN_H */
