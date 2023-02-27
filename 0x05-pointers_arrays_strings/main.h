@@ -9,4 +9,12 @@
 
 int _putchar(char c);
 
+/**
+ * reset_to_98 - update value being pointed to
+ * @n: pointer int
+ * Return: void
+ */
+
+void reset_to_98(int *n);
+
 #endif /* MAIN_H */
