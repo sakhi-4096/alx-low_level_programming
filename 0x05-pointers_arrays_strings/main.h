@@ -66,4 +66,12 @@ void rev_string(char *s);
 
 void puts2(char *str);
 
+/**
+ * puts_half - print half string then new line
+ * @str: input string
+ * Return: void
+ */
+
+void puts_half(char *str);
+
 #endif /* MAIN_H */
