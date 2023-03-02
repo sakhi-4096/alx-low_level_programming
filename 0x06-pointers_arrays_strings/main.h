@@ -67,7 +67,7 @@ char *string_toupper(char *s);
 /**
  * cap_string - capitalize all words of string
  * @s: input string
- * Return: capitalized string
+ * Return: capitalized words
  */
 
 char *cap_string(char *s);
