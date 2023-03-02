@@ -9,4 +9,13 @@
 
 int _putchar(char c);
 
+/**
+ * _strcat - concatenate two strings
+ * @dest: string prepend
+ * @src: string append
+ * Return: pointer to result dest
+ */
+
+char *_strcat(char *dest, char *src);
+
 #endif /* MAIN_H */
