@@ -47,4 +47,13 @@ char *_strncpy(char *dest, char *src, int n);
 
 int _strcmp(char *s1, char *s2);
 
+/**
+ * reverse_array - reverse the content of an array of integers
+ * @a: collection of integers
+ * @n: number of elements in collection
+ * Return: void
+ */
+
+void reverse_array(int *a, int n);
+
 #endif /* MAIN_H */
