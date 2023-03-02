@@ -38,4 +38,13 @@ char *_strncat(char *dest, char *src, int n);
 
 char *_strncpy(char *dest, char *src, int n);
 
+/**
+ * _strcmp - compare two strings
+ * @s1: first string as a pointer
+ * @s2: second string as a pointer
+ * Return: 0 for identical, otherwise false
+ */
+
+int _strcmp(char *s1, char *s2);
+
 #endif /* MAIN_H */
