@@ -28,4 +28,14 @@ char *_strcat(char *dest, char *src);
 
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - copy a string
+ * @dest: copy to
+ * @src: copy from
+ * @n: number n bytes (char)
+ * Return: string copy
+ */
+
+char *_strncpy(char *dest, char *src, int n);
+
 #endif /* MAIN_H */
