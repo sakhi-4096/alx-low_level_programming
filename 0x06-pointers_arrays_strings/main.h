@@ -18,4 +18,14 @@ int _putchar(char c);
 
 char *_strcat(char *dest, char *src);
 
+/**
+ * _strncat - concatenate two strings using n bytes from src
+ * @n: number n bytes (chars)
+ * @src: string to append
+ * @dest: string to be appended to
+ * Return: pointer to dest
+ */
+
+char *_strncat(char *dest, char *src, int n);
+
 #endif /* MAIN_H */
