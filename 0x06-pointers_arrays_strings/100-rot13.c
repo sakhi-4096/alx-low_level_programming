@@ -16,9 +16,11 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++) /* loop through string */
 	{
-		for (j = 0; alpha[j] != '\0'; j++) /* loop through alphabets */
-			if (s[i] == alpha[j])
-				s[i] = rot[j];
+		j = 0;
+		while (alpha[j] != '\0' && s[i] != alpha[j])
+			j++;
+		if (s[i] == alpha[j])
+			s[i] = rot[j];
 	}
 
 	return (s);
