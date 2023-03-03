@@ -88,4 +88,12 @@ char *leet(char *s);
 
 char *rot13(char *s);
 
+/**
+ * print_number - print an integer
+ * @n: input integer
+ * Return: void
+ */
+
+void print_number(int n);
+
 #endif /* MAIN_H */
