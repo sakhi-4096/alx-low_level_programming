@@ -47,4 +47,13 @@ char *_strchr(char *s, char c);
 
 unsigned int _strspn(char *s, char *accept);
 
+/**
+ * _strpbrk - return pointer to byte in s that matches a byte in accept
+ * @s: string being searched
+ * @accept: target matches
+ * Return: pointer to index of string
+ */
+
+char *_strpbrk(char *s, char *accept);
+
 #endif /* MAIN_H */
