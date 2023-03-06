@@ -29,4 +29,13 @@ char *_memset(char *s, char b, unsigned int n);
 
 char *_memcpy(char *dest, char *src, unsigned int n);
 
+/**
+ * _strchr - locate a character in a string
+ * @s: string to be checked
+ * @c: character we are checking
+ * Return: pointer to the character
+ */
+
+char *_strchr(char *s, char c);
+
 #endif /* MAIN_H */
