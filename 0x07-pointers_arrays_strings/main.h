@@ -56,4 +56,13 @@ unsigned int _strspn(char *s, char *accept);
 
 char *_strpbrk(char *s, char *accept);
 
+/**
+ * _strstr - locate and return pointer to a substring
+ * @haystack: string to search
+ * @needle: target substring
+ * Return: pointer to index of string
+ */
+
+char *_strstr(char *haystack, char *needle);
+
 #endif /* MAIN_H */
