@@ -9,4 +9,12 @@
 
 int _putchar(char c);
 
+/**
+ * _puts_recursion - print a string then new line
+ * @s: string to print
+ * Return: void
+ */
+
+void _puts_recursion(char *s);
+
 #endif /* MAIN_H */
