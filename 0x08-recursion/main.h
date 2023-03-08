@@ -33,4 +33,12 @@ void _print_rev_recursion(char *s);
 
 int _strlen_recursion(char *s);
 
+/**
+ * factorial - return factorial of a given number
+ * @n: given number
+ * Return: factorial of number
+ */
+
+int factorial(int n);
+
 #endif /* MAIN_H */
