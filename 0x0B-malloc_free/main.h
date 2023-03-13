@@ -9,4 +9,13 @@
 
 int _putchar(char c);
 
+/**
+ * create_array - create array of chars and initializes with specific char
+ * @size: size of chars to be created
+ * @c: character used to initialize the array
+ * Return: pointer to the array of char, or NULL
+ */
+
+char *create_array(unsigned int size, char c);
+
 #endif /* MAIN_H */
