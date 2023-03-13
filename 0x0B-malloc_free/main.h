@@ -18,4 +18,12 @@ int _putchar(char c);
 
 char *create_array(unsigned int size, char c);
 
+/**
+ * _strdup - return pointer to a duplicate string given as parameter
+ * @str: string given as parameter
+ * Return: pointer to copy of string
+ */
+
+char *_strdup(char *str);
+
 #endif /* MAIN_H */
