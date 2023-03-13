@@ -2,21 +2,6 @@
 #include <stdlib.h>
 
 /**
- * _strlen - get length of string
- * @s: input string
- * Return: length of string in bytes
- */
-
-size_t _strlen(char *s)
-{
-	size_t i, len = 0;
-
-	for (i = 0; *(s + i) != '\0'; i++, len++)
-		;
-	return (len);
-}
-
-/**
  * _strdup - return pointer to a duplicate string given as parameter
  * @str: string given as parameter
  * Return: pointer to copy of string
@@ -24,15 +9,18 @@ size_t _strlen(char *s)
 
 char *_strdup(char *str)
 {
-	size_t i, length;
+	size_t i = 0, length = 0;
 	char *new_str;
 
-	if (str == NULL)
+	if (str == NULL) /* check memory */
 		return (NULL);
 
-	length = _strlen(str);
-	new_str = (char *) malloc(length);
-	if (new_str == NULL)
+	while (*(str + i))
+		length++, i++;
+	length++; /* add NULL terminator */
+
+	new_str = malloc(length * sizeof(char));
+	if (new_str == NULL) /* check memory */
 		return (NULL);
 
 	i = 0;
