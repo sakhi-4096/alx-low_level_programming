@@ -33,12 +33,11 @@ char *str_concat(char *s1, char *s2)
 		*(str_con + i) = *(s1 + i);
 		i++;
 	}
-	while (j < len2)
+	while (j <= len2)
 	{
 		*(str_con + i) = *(s2 + j);
 		i++, j++;
 	}
-	*(str_con + j) = '\0';
 
 	return (str_con);
 }
