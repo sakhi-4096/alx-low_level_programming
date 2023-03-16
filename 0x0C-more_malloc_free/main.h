@@ -9,4 +9,12 @@
 
 int _putchar(char c);
 
+/**
+ * malloc_checked - allocate memory using malloc
+ * @b: size of blocks
+ * Return: pointer to allocated memory
+ */
+
+void *malloc_checked(unsigned int b);
+
 #endif /* MAIN_H */
