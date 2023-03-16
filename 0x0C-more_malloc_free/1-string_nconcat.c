@@ -31,26 +31,18 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s_concat = malloc(sizeof(*s_concat) * (len1 + len2 + 1));
 	if (s_concat == NULL) /* check validity of memory block */
 		return (NULL);
-	
-	/*while (i < len1)
+	while (i < len1)
 	{
-		s[i] = s1[i];
+		s_concat[i] = s1[i];
 		i++;
 	}
 
 	while (n < len2 && i < (len1 + n))
-		s[i++] = s2[j++];
+		s_concat[i++] = s2[j++];
 
 	while (n >= len2 && i < (len1 + len2))
-		s[i++] = s2[j++];
-	s[i] = '\0';*/
-
-	for (i = 0; *(s1 + i) != '\0'; i++)
-		*(s_concat + i) = *(s1 + i);
-	for (j = 0; j <= n; j++)
-		*(s_concat + (i + j)) = *(s2 + j);
-	*(s_concat + (i + j)) = '\0';
+		s_concat[i++] = s2[j++];
+	s_concat[i] = '\0';
 
 	return (s_concat);
-
 }
