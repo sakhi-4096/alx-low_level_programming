@@ -34,6 +34,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *new_ptr;
 
+	/* validity checks */
 	if (new_size == old_size)
 		return (ptr);
 	if (new_size == 0 && ptr)
@@ -44,11 +45,16 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	if (!ptr)
 		return (malloc(new_size));
 
+	/* allocate memory of new block */
 	new_ptr = malloc(new_size);
 	if (new_ptr == NULL)
 		return (NULL);
 
-	_memcpy(new_ptr, ptr, new_size);
+	/* copy contents of old memory block */
+	if (new_size < old_size)
+		_memcpy(new_ptr, ptr, new_size);
+	if (new_size > old_size)
+		_memcpy(new_ptr, ptr, old_size);
 
 	free(ptr);
 	return (new_ptr);
