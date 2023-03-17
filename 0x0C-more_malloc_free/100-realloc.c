@@ -37,13 +37,19 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	/* validity checks */
 	if (new_size == old_size)
 		return (ptr);
-	if (new_size == 0 && ptr)
+	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
 		return (NULL);
 	}
-	if (!ptr)
-		return (malloc(new_size));
+	if (ptr == NULL)
+	{
+		new_ptr = malloc(new_size);
+		if (new_ptr == NULL)
+			return (NULL);
+		else
+			return (new_ptr);
+	}
 
 	/* allocate memory of new block */
 	new_ptr = malloc(new_size);
@@ -51,11 +57,8 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 
 	/* copy contents of old memory block */
-	if (new_size < old_size)
-		_memcpy(new_ptr, ptr, new_size);
-	if (new_size > old_size)
-		_memcpy(new_ptr, ptr, old_size);
+	_memcpy(new_ptr, ptr, new_size);
 
-	free(ptr);
+	free(ptr); /* free old memory block */
 	return (new_ptr);
 }
