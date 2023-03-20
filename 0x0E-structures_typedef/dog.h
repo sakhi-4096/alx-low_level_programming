@@ -31,4 +31,10 @@ struct dog
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
+/**
+ * print_dog - print all member info for struct dog
+ * @d: struct dog to print
+ */
+void print_dog(struct dog *d);
+
 #endif
