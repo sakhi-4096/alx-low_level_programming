@@ -1,5 +1,6 @@
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
+#include <stdlib.h>
 
 /**
  * print_name - execute a function given as a parameter
