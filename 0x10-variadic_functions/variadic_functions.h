@@ -19,10 +19,16 @@ int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 
 /**
- * print_string - print varying amount of strings
+ * print_strings - print varying amount of strings
  * @separator: delimiter
  * @n: amount of arguments in list
  */
 void print_strings(const char *separator, const unsigned int n, ...);
+
+/**
+ * print_all - print varying input of ints, chars, floats, and strings
+ * @format: an array of chars signifying which data type to print
+ */
+void print_all(const char * const format, ...);
 
 #endif
