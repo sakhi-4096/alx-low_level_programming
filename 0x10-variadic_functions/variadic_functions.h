@@ -11,4 +11,11 @@
  */
 int sum_them_all(const unsigned int n, ...);
 
+/**
+ * print_numbers - print varying amount of numbers
+ * @separator: delimeter
+ * @n: amount of arguments in list
+ */
+void print_numbers(const char *separator, const unsigned int n, ...);
+
 #endif
