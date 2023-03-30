@@ -25,4 +25,11 @@ typedef struct list_s
  */
 size_t print_list(const list_t *h);
 
+/**
+ * list_len - return number of elements in a linked list
+ * @h: pointer to linked list
+ * Return: number of elements
+ */
+size_t list_len(const list_t *h);
+
 #endif /* LISTS.H */
