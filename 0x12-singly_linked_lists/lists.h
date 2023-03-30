@@ -42,4 +42,12 @@ size_t list_len(const list_t *h);
  */
 list_t *add_node(list_t **head, const char *str);
 
+/**
+ * add_node_end - add new node at the end of linked list
+ * @head: pointer to head of linked list
+ * @str: string being added to new node
+ * Return: address of new element
+ */
+list_t *add_node_end(list_t **head, const char *str);
+
 #endif /* LISTS.H */
