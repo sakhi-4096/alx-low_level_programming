@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * _putchar - puts character to standrad output
@@ -38,5 +39,13 @@ size_t print_listint(const listint_t *h);
  * Return: number of elements
  */
 size_t listint_len(const listint_t *h);
+
+/**
+ * add_nodeint - add node at beginning of listint_t list
+ * @head: pointer to head of list
+ * @n: number to be added
+ * Return: address of new element
+ */
+listint_t *add_nodeint(listint_t **head, const int n);
 
 #endif /* LISTS.H */
