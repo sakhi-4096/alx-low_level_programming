@@ -32,4 +32,11 @@ typedef struct listint_s
  */
 size_t print_listint(const listint_t *h);
 
+/**
+ * listint_len - get number of elements in linked list
+ * @h: pointer to head of list
+ * Return: number of elements
+ */
+size_t listint_len(const listint_t *h);
+
 #endif /* LISTS.H */
