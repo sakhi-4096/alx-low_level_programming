@@ -56,4 +56,11 @@ listint_t *add_nodeint(listint_t **head, const int n);
  */
 listint_t *add_nodeint_end(listint_t **head, const int n);
 
+/**
+ * free_listint - free a listint_t list
+ * @head: pointer to the head of list
+ * Return: void
+ */
+void free_listint(listint_t *head);
+
 #endif /* LISTS.H */
