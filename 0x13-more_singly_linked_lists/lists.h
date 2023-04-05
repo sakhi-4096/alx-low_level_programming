@@ -85,4 +85,11 @@ int pop_listint(listint_t **head);
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 
+/**
+ * sum_listint - return sum of all data (n) of listint_t list
+ * @head: pointer to head of list
+ * Return: sum of list, 0 if empty
+ */
+int sum_listint(listint_t *head);
+
 #endif /* LISTS.H */
