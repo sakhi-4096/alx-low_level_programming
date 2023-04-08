@@ -43,6 +43,13 @@
  * Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
  * You are not allowed to use the % or / operators
 
+---
+### Sources ###
+ * [Basics of Bit manipulation](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
+ * [Summary of bit manipulation](https://leetcode.com/problems/sum-of-two-integers/solutions/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently/)
+ * [Bitwise operations for beginners](https://codeforces.com/blog/entry/73490)
+ * [Fun with bits](https://www.topcoder.com/thrive/articles/A%20bit%20of%20fun:%20fun%20with%20bits)
+
 ------
 ### Author ###
 * Sakhile Ndlazi
