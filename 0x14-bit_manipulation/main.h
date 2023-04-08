@@ -1,6 +1,8 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+#include <stddef.h>
+
 /**
  * _putchar - puts character to standrad output
  * @c: character to put to standard output
