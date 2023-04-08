@@ -2,6 +2,7 @@
 #define MAIN_H_
 
 #include <stddef.h>
+#include <stdio.h>
 
 /**
  * _putchar - puts character to standrad output
