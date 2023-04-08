@@ -9,4 +9,11 @@
 
 int _putchar(char c);
 
+/**
+ * binary_to_unit - convert a binary number to an unsigned int
+ * @b: pointer to string of 0 and 1
+ * Return: unsigned integer
+ */
+unsigned int binary_to_uint(const char *b);
+
 #endif /* MAIN_H */
