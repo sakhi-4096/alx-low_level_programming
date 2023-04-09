@@ -26,4 +26,12 @@ unsigned int binary_to_uint(const char *b);
  */
 void print_binary(unsigned long int n);
 
+/**
+ * get_bit - return the value of a bit at a given index
+ * @n: number to be checked
+ * @index: index value that has to be returned
+ * Return: value of bit at index, -1 if error
+ */
+int get_bit(unsigned long int n, unsigned int index);
+
 #endif /* MAIN_H */
