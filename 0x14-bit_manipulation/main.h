@@ -42,4 +42,12 @@ int get_bit(unsigned long int n, unsigned int index);
  */
 int set_bit(unsigned long int *n, unsigned int index);
 
+/**
+ * clear_bit - set the value of a bit to 0 at given index
+ * @n: pointer to bits
+ * @index: index value to be changed
+ * Return: 1 if it worked, -1 if error
+ */
+int clear_bit(unsigned long int *n, unsigned int index);
+
 #endif /* MAIN_H */
