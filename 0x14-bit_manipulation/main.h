@@ -50,4 +50,12 @@ int set_bit(unsigned long int *n, unsigned int index);
  */
 int clear_bit(unsigned long int *n, unsigned int index);
 
+/**
+ * flip_bits - number of bits needed to flip to get from one number to another
+ * @n: number one
+ * @m: nubmer two
+ * Return: number of bits
+ */
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
+
 #endif /* MAIN_H */
