@@ -11,4 +11,12 @@
  */
 int _putchar(char c);
 
+/**
+ * read_textfile - read a text file and print it to POSIX standard output
+ * @filename: pointer to sequence of data
+ * @letters: number of letters it should read and print
+ * Return: actual number of letters read and printed, 0 if fail
+ */
+ssize_t read_textfile(const char *filename, size_t letters);
+
 #endif /* MAIN_H */
