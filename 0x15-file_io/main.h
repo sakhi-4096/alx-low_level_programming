@@ -5,6 +5,9 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 
 /**
  * _putchar - puts character to standrad output
