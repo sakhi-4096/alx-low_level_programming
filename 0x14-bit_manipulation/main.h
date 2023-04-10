@@ -58,4 +58,10 @@ int clear_bit(unsigned long int *n, unsigned int index);
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
+/**
+ * get_endianness - check the endianness
+ * Return: 0 if big endian, 1 if little endian
+ */
+int get_endianness(void);
+
 #endif /* MAIN_H */
