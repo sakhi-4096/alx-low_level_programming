@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * _putchar - puts character to standrad output
