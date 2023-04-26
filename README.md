@@ -1,5 +1,5 @@
-# C Low Level Programming #
-------
+# C Low Level Programming 
+
 Each file and folder in this repository represents an integral concept of programming, focusing on the C programming language. There references to, variables, conditionals, debugging, arrays, pointers, recursion, libraries, malloc, free, preprocessor, structures and typedef, function pointers, variadic functions, linked lists, bit manipulation, file I/O. The repository contains bash scripts and functions around a particular concept.
 
 ### Environment ###
@@ -16,6 +16,11 @@ Each file and folder in this repository represents an integral concept of progra
 * Hello World
 * Variables
 * Functions
+* File I/O
+* Singly linked lists
+* Bit Manipulation
+* _printf
+* simple_shell
 
 ------
 ### Author ###
