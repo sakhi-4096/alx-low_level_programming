@@ -8,6 +8,7 @@
 size_t _strlen(char *s)
 {
 	size_t count = 0;
+
 	while (s[count] != '\0')
 		count++;
 	return (count);
@@ -21,7 +22,8 @@ size_t _strlen(char *s)
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int o, w, str_len = 0;
+	int o;
+	size_t str_len = 0, w_bytes = 0, t_bytes = 0;
 
 	if (filename == NULL)
 		return (-1);
@@ -30,20 +32,19 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (o == -1)
 		return (-1);
 
-	if (text_content == NULL) /* check if text is valid */
+	if (text_content != NULL) /* check if text is valid */
 	{
-		close(o);
-		return (-1);
+		str_len = _strlen(text_content);
+		do {
+			w_bytes = write(o, text_content, str_len); /* write or append text */
+			if (w_bytes == -1 || w_bytes != str_len)
+			{
+				close(o);
+				return (-1);
+			}
+			t_bytes += w_bytes;
+		} while (t_bytes < str_len);
 	}
-	str_len = _strlen(text_content);
-
-	w = write(o, text_content, str_len); /* write or append text */
-	if (w == -1 || w != str_len)
-	{
-		close(o);
-		return (-1);
-	}
-
 	close(o); /* close file */
 	return (1);
 }
