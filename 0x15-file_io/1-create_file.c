@@ -32,18 +32,19 @@ int create_file(const char *filename, char *text_content)
 	if (o == -1)
 		return (-1);
 
-	if (text_content != NULL) /* write content to file */
+	if (text_content == NULL)
 	{
-		str_len = _strlen(text_content);
-		w = write(o, text_content, str_len);
-		if (w == -1 || w != str_len) /* failure to write, delete file and return */
-		{
-			close(o);
-			unlink(filename);
-			return (-1);
-		}
+		close(o);
+		return (1);
 	}
+	str_len = _strlen(text_content);
 
+	w = write(o, text_content, str_len); /* write content to file */
+	if (w == -1 || w != str_len) /* failure to write, and return */
+	{
+		close(o);
+		return (-1);
+	}
 	close(o); /* close file */
 	return (1);
 }
