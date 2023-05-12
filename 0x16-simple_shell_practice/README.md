@@ -50,8 +50,8 @@ sakhi@ubuntu:~/0x16. gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
  ```shell
  sakhi@ubuntu:~/0x16. man 3 getline
  ```
- 	> **important** make sure you read the man, and the RETURN VALUE section, in order to know when to stop reading Keyword: “end-of-file”, or EOF (or Ctrl+D).
-	> **advanced** Write your own version of getline.
+ * **important** make sure you read the man, and the RETURN VALUE section, in order to know when to stop reading Keyword: “end-of-file”, or EOF (or Ctrl+D).
+ * **advanced** Write your own version of getline.
 2. command line to av
  * Write a function that splits a string and returns an array of each word of the string.
  ```shell
@@ -64,7 +64,7 @@ sakhi@ubuntu:~/0x16. gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
  * [Unix shell](https://en.wikipedia.org/wiki/Unix_shell)
  * [Thompson shell](https://en.wikipedia.org/wiki/Thompson_shell)
  * [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
- * [Shell (computing)](https://en.wikipedia.org/wiki/Shell_(computing)
+ * [Shell (computing)](https://en.wikipedia.org/wiki/Shell_(computing))
  * man pages `open(2), read(2), write(2), close(2), access, chdir(2)`
  	```shell
 	sakhi@ubuntu:~/0x16. man 2 open
