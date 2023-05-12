@@ -1,8 +1,6 @@
 # C - simple_shell_practice 
 * **shell program** *- a shell is a computer program that exposes an operating system's services to a human user or other programs. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named shell becuase it is the outermost layer around the operating system.*
 
-![The Gates of Shell by Spencer Cheng featuring Julien Barbier](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
-
 ### General Objectives
  * Who designed and implemented the original Unix operating system
  * Who wrote the first version of the UNIX shell
@@ -18,6 +16,8 @@
  * How to use execute another program with the execve system call
  * How to suspend the execution of a process until one of its children terminates
  * What is **EOF** / "end-of-file"?
+
+![The Gates of Shell by Spencer Cheng featuring Julien Barbier](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
 
 ---
 ### Allowed functions
