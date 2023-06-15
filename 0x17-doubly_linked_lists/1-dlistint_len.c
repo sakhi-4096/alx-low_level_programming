@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * pdlistint_len - print all elements of list
- * @h: doubly linked list
+ * dlistint_len - count and return number elements in list
+ * @h: pointer to head of list
  * Return: number of nodes
  */
 size_t dlistint_len(const dlistint_t *h)
