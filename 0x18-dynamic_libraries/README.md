@@ -13,6 +13,7 @@ A shared library/dynamic library is a library that is loaded dynamically at runt
  * [Static and Dynamic libraries](https://blog.devgenius.io/static-and-dynamic-libraries-c-programming-language-ae570b75038e)
  * [Static Libraries vs. Dynamic Libraries](https://medium.com/@StueyGK/static-libraries-vs-dynamic-libraries-af78f0b5f1e4)
  * [Static and Dynamic Libraries | Set 1](https://www.geeksforgeeks.org/static-vs-dynamic-libraries/)
+ * [Difference between Dynamic and Static library](https://www.youtube.com/watch?v=eW5he5uFBNM)
 
 ### Author
  * Sakhile Ndlazi
