@@ -51,7 +51,7 @@ int get(HashTable* ht, const char* key) {
         curr = curr->next;
     }
 
-    return -1; // Key not found
+    return -1; /* Key not found */
 }
 ```
 
