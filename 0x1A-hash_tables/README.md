@@ -34,6 +34,7 @@ unsigned int hash(const char* key) {
     for (int i = 0; i < len; i++) {
         hash_value = hash_value * 31 + key[i];
     }
+
     return hash_value % TABLE_SIZE;
 }
 ```
