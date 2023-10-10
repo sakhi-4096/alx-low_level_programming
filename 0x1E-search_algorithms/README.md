@@ -3,7 +3,7 @@ Search algorithms are a fundamental component of computer science and informatio
 
 ![The algorithm meme](https://www.memecreator.org/static/images/memes/4944915.jpg)
 
-## Descriptioni
+## Description
  They are used to locate specific items or data within a larger collection, often with the aim of finding the most efficient or relevant results. Search algorithms come in various forms, and their selection depends on the problem and the data structure in use. Search algorithms are fundamental tools for tasks like data retrieval, pathfinding, optimization, and artificial intelligence. The choice of a search algorithm depends on the problem's nature and specific requirements, such as time complexity and available data structures.
 
 ## Features
