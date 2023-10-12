@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * interpolation_search - Perform Interpolation search on a sorted array of integers.
+ * interpolation_search - Perform Interpolation search sorted array of integers
  * @array: Pointer to the first element of the sorted array to search in.
  * @size: Number of elements in the array.
  * @value: The value to search for.
